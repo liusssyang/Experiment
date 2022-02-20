@@ -26,7 +26,7 @@ All the scripts to pre-process a given dataset for ETM can be found in the folde
 
 To learn interpretable embeddings and topics using ETM on the 20NewsGroup dataset, run
 ```
-python main.py --mode train --dataset 20ng --data_path data/20ng --num_topics 50 --train_embeddings 1 --epochs 1000
+python main.py --mode train --dataset 20ng --data_path ../data/20ng --num_topics 50 --train_embeddings 1 --epochs 1000
 ```
 
 To evaluate perplexity on document completion, topic coherence, topic diversity, and visualize the topics/embeddings run
